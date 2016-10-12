@@ -61,6 +61,7 @@ p {
 		margin-bottom: 2%;
 		background-color: gray;
 		height: 150px;
+		overflow: hidden;
 	}
 	.col-lg-1 {
 		width: 6.17%;
@@ -110,6 +111,7 @@ p {
 		margin-bottom: 2%;
 		background-color: gray;
 		height: 150px;
+		overflow: hidden;
 	}
 	.col-md-1 {
 		width: 6.17%;
@@ -158,6 +160,7 @@ p {
 		margin-bottom: 2%;
 		background-color: gray;
 		height: 150px;
+		overflow: hidden;
 	}
 	.col-sl-1 {
 		width: 6.17%;
