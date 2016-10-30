@@ -56,7 +56,7 @@ h1 {
 }
 
 #nav-list a {
-	color: #951C49;
+	color: #000000;
 	text-align: center;
 }
 
@@ -74,11 +74,16 @@ h1 {
 
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  margin-top: -60px;
 }
 
-#main-content .jumbotron {
-	padding: 5px;
+#main-content {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#main-content .row {
+	background-color: #FDEBD0;
 }
 
 /********** Extra small devices *************/
