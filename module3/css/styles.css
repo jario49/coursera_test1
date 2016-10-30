@@ -1,0 +1,99 @@
+body {
+	font-size: 16px;
+	color: #000000;
+	background-color: #FFFFFF;
+	/*font-family: sans-serif;*/
+}
+
+h1 {
+	font-size: 1.5em;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+#header-nav {
+	background-color: #C0C0C0;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 16px;
+}
+
+.navbar-brand h1 {
+	color: #000000;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #808080;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#collapsable-nav {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+	background: #E7E7E7;
+	border: 0;
+	padding: 0;
+}
+
+#nav-list ul > li {
+	border: 1px #000000;
+	padding: 0;
+}
+
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #000000;
+}
+
+#nav-list a span {
+  font-size: 1.5em;
+}
+
+.navbar-header button.navbar-toggle., .navbar-header .icon-bar {
+	border: 0;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#main-content .jumbotron {
+	padding: 5px;
+}
+
+/********** Extra small devices *************/
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 6vw;
+	}
+	#main-content {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+	
